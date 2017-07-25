@@ -365,14 +365,14 @@ MonoBehaviour:
     width: 1098
     height: 450
   m_SceneLighting: 1
-  lastFramingTime: 7254.16257802517
+  lastFramingTime: 20988.895138249984
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.21251369, y: 2.403995, z: -1.747137}
+    m_Target: {x: -0.0801, y: 0.135, z: 0.0016447827}
     speed: 2
-    m_Value: {x: 0.21251369, y: 2.403995, z: -1.747137}
+    m_Value: {x: -0.0801, y: 0.135, z: 0.0016447827}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -395,13 +395,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.014870398, y: 0.70588976, z: -0.01482586, w: -0.7080104}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.014870398, y: 0.7058898, z: -0.014825861, w: -0.7080104}
+    m_Value: {x: -0, y: 0, z: -0, w: -1}
   m_Size:
-    m_Target: 3.8127916
+    m_Target: 0.35681897
     speed: 2
-    m_Value: 3.8127916
+    m_Value: 0.35681897
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -466,9 +466,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: e2fbffff00000000
+    m_SelectedIDs: 762d0000
+    m_LastClickedID: 11638
+    m_ExpandedIDs: e4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,7 +487,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
-  - 1
+  - Interaction Callbacks
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -528,19 +528,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ClassRoom Stuff/Textures
+    - Assets/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Scripts
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/ClassRoom Stuff/Textures
+  - Assets/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Scripts
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\shi-mz\Desktop\VR_saber\VRtest
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a280000
-    m_LastClickedID: 10346
-    m_ExpandedIDs: 000000006e2500009e260000a0260000d2260000ec260000ee2600002a2700002e27000016280000182800006c280000fe28000000ca9a3bffffff7f
+    m_SelectedIDs: e8290000
+    m_LastClickedID: 10728
+    m_ExpandedIDs: 000000002a260000b0260000aa270000ae270000f82700001c28000020280000782800008c280000902800000029000016290000ba290000c0290000ec2a0000f42a0000182b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,7 +568,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e2500009e260000a0260000d2260000ec260000ee2600002a2700002e27000016280000182800006c280000fe280000
+    m_ExpandedIDs: 000000002a260000b0260000aa270000ae270000f82700001c28000020280000782800008c2800009028000000290000162900006e290000ba290000c0290000ec2a0000f42a0000182b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,9 +620,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 300}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 68
-  m_DirectoriesAreaWidth: 110
+  m_DirectoriesAreaWidth: 184
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1645
-    y: 17
+    y: 92
     width: 275
     height: 926
   m_ScrollPosition: {x: 0, y: 0}

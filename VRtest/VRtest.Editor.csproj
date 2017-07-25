@@ -115,6 +115,9 @@
     <Reference Include="LeapCSharp.NET3.5">
       <HintPath>Assets\Plugins\LeapCSharp.NET3.5.dll</HintPath>
     </Reference>
+    <Reference Include="InteractionEngineUtility">
+      <HintPath>Assets\LeapMotion\Modules\InteractionEngine\Plugins\InteractionEngineUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
     </Reference>
@@ -133,6 +136,19 @@
     <Compile Include="Assets\LeapMotion\Editor\Tests\FrameValidator.cs" />
     <Compile Include="Assets\LeapMotion\Editor\Tests\HandFactoryTest.cs" />
     <Compile Include="Assets\LeapMotion\Editor\Tests\TransformCopyTest.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\Editor\TransformHandleEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Scripts\Editor\WorkstationBehaviourEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\ContactBoneParentEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionBehaviourEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionControllerEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionHandEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionManagerEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionVRControllerEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Editor\AnchorEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Editor\AnchorableBehaviourEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Editor\InteractionButtonEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Editor\InteractionSliderEditor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\Editor\InteractionControllerSwitcherEditor.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\Editor\Tests\SlidingMaxTest.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\Attributes\Editor\CombinablePropertyDrawer.cs" />
     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\SerializableDictionaryEditor.cs" />

@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/1.unity
+- path: Assets/LeapMotion/Modules/InteractionEngine/Examples/3. Interaction Callbacks/Interaction
+    Callbacks.unity
   isLoaded: 1
   isActive: 1
